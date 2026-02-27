@@ -188,6 +188,7 @@ interface HandState {
     isDetected: boolean;
     position: { x: number; y: number };
     isPinching: boolean;
+    gestureType: 'none' | 'palm' | 'fist' | 'pinch' | 'point' | 'peace' | 'spiderman';
     isGestureMode: boolean;
     setHandData: (data: Partial<HandState>) => void;
     toggleGestureMode: () => void;
@@ -197,6 +198,7 @@ export const useHandStore = create<HandState>((set) => ({
     isDetected: false,
     position: { x: 0.5, y: 0.5 },
     isPinching: false,
+    gestureType: 'none',
     isGestureMode: true,
     setHandData: (data) => set((state) => ({ ...state, ...data })),
     toggleGestureMode: () => set((state) => ({ isGestureMode: !state.isGestureMode })),
