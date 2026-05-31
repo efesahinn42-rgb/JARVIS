@@ -80,7 +80,11 @@ cp .env.example .env
 *(You will need a Groq API Key if you plan to use Groq as your LLM provider).*
 
 ## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/efesahinn42-rgb/JARVIS/issues).
+Contributions, issues, and feature requests are welcome! 
+Please review our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before making a contribution. Feel free to check the [issues page](https://github.com/efesahinn42-rgb/JARVIS/issues).
+
+## 🛡️ Security
+If you discover any security related issues, please refer to our [Security Policy](SECURITY.md) for reporting guidelines.
 
 ## 📝 License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
